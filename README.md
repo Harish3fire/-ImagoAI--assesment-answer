@@ -1,5 +1,28 @@
 # -ImagoAI--assesment-answer
- predict mycotoxin levels (DON concentration) in corn samples
-step 1. open collab or VS code to run the python scripts 
-step 2. ive added all the libraries in the python script so no need to add libraries 
-step 3. run all the code and at the end you will get an webpage link for predicting mycotoxin levels (DON concentration) in corn samples
+README File
+
+Setup Instructions:
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the preprocessing and training script:
+
+python train.py
+
+Start the API service:
+
+python app.py
+
+Repository Structure:
+
+train.py - Data preprocessing, model training & evaluation
+
+app.py - Flask API for predictions
+
+models/ - Saved models and scaler
+
+requirements.txt - Required dependencies
+
+Dockerfile - Containerization instructions
