@@ -1,0 +1,34 @@
+
+
+1. Preprocessing Steps & Rationale:
+
+Handling Missing Data: Missing values were checked and handled using imputation strategies where feasible.
+
+Normalization: MinMax scaler was applied to standardize the spectral reflectance values to improve model performance.
+
+Outlier Detection: Log transformation was considered for reducing the impact of extreme values.
+
+
+2. Model Selection, Training & Evaluation:
+
+Models Implemented:
+
+Baseline: MLPRegressor (Neural Network)
+
+Advanced: Random Forest, XGBoost
+
+Evaluation Metrics:
+
+MAE, RMSE, R² Score were used to assess model performance.
+
+Results:
+
+Random Forest and XGBoost outperformed the simple Neural Network in terms of R² Score and RMSE.
+
+3. Key Findings & Improvements:
+
+The best-performing models were Random Forest and XGBoost.
+
+Further improvement could be achieved by optimizing hyperparameters with Optuna. but in our case no need to use hyperparameter tuning 
+
+More spectral indices can be engineered to improve feature representation.
