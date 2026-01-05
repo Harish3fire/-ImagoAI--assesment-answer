@@ -1,4 +1,4 @@
-# -ImagoAI--assesment-answer
+# -Mytoxin prediction in corn 
 README File
 
 Setup Instructions:
