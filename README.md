@@ -1,4 +1,4 @@
-# -Mytoxin prediction in corn 
+# -Mycotoxin prediction in corn 
 README File
 
 Setup Instructions:
